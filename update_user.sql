@@ -1,0 +1,1 @@
+ALTER TABLE wcf1_user ADD absentReply TINYINT(1) NOT NULL DEFAULT 1;

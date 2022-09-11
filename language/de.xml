@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.user.absence">
+		<item name="wcf.user.absence.setting.conversation"><![CDATA[Konversation]]></item>
+		<item name="wcf.user.absence.setting.conversation.absentReply"><![CDATA[Automatische Antwort]]></item>
+		<item name="wcf.user.absence.setting.conversation.absentReply.description"><![CDATA[Bei neuen Konversationen wird automatisch mit Hinweis auf die Abwesenheit geantwortet.]]></item>
+		<item name="wcf.user.absence.conversation.reply"><![CDATA[Ich bin von {@$absentFrom|plainTime} bis {@$absentTo|plainTime} abwesend.{if $absentReason}<br>Grund: {$absentReason}.{/if}{if $absentRep}<br>Vertretung: {@$absentRep}.{/if}]]></item>
+	</category>
+</language>
