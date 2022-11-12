@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
-	<category name="wcf.user.absence">
-		<item name="wcf.user.absence.setting.conversation"><![CDATA[Conversation]]></item>
-		<item name="wcf.user.absence.setting.conversation.absentReply"><![CDATA[Automatic Reply]]></item>
-		<item name="wcf.user.absence.setting.conversation.absentReply.description"><![CDATA[Users will be informed about your absence, if they send a conversation.]]></item>
-		<item name="wcf.user.absence.conversation.reply"><![CDATA[I am absent from {@$absentFrom|plainTime} until {@$absentTo|plainTime}.{if $absentReason}<br>Reason: {$absentReason}.{/if}{if $absentRep}<br>Representation: {@$absentRep}.{/if}]]></item>
-	</category>
+    <category name="wcf.user.absence">
+        <item name="wcf.user.absence.setting.conversation"><![CDATA[Conversation]]></item>
+        <item name="wcf.user.absence.setting.conversation.absentReply"><![CDATA[Automatic Reply]]></item>
+        <item name="wcf.user.absence.setting.conversation.absentReply.description"><![CDATA[Users will be informed about your absence, if they send a conversation.]]></item>
+        <item name="wcf.user.absence.conversation.reply"><![CDATA[I am absent from {@$absentFrom|plainTime} until {@$absentTo|plainTime}.{if $absentReason}<br>Reason: {$absentReason}.{/if}{if $absentRep}<br>Representation: {@$absentRep}.{/if}]]></item>
+    </category>
 </language>
